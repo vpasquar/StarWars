@@ -1,0 +1,55 @@
+body { 
+  background-image: url("../images/space.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow:auto;
+  color:white;   
+     }
+
+.game-container {
+	width:100%;
+	height:100vh;
+}
+
+#info-section {
+
+}
+.game-section {
+	width:75%;
+    display:inline-block;
+    height:375px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.battle-container{ 
+	margin-top:50px;
+ }
+
+.my-char-container {
+	float:left;
+	height:375px;
+}
+.defender-container {
+	margin-left:10px;
+	float:left;
+}
+
+.defender-container h2 {
+	color:red;
+}
+
+.imgDiv {
+	font-size:14px;
+	line-height:1;
+	float:left;
+	height:225px;
+	width:225px;
+}
+
+.charImg {
+	height:69%;
+	width:69%;
+}
+
