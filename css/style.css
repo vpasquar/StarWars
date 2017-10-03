@@ -1,55 +1,35 @@
-body { 
+body {
   background-image: url("../images/space.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  overflow:auto;
-  color:white;   
-     }
-
-.game-container {
-	width:100%;
-	height:100vh;
-}
-
-#info-section {
-
-}
-.game-section {
-	width:75%;
-    display:inline-block;
-    height:375px;
-    margin-left:20%;
-    margin-right:20%;
-}
-
-.battle-container{ 
-	margin-top:50px;
- }
-
-.my-char-container {
-	float:left;
-	height:375px;
-}
-.defender-container {
-	margin-left:10px;
-	float:left;
-}
-
-.defender-container h2 {
-	color:red;
-}
-
-.imgDiv {
-	font-size:14px;
-	line-height:1;
-	float:left;
-	height:225px;
-	width:225px;
-}
-
-.charImg {
-	height:69%;
-	width:69%;
-}
-
+  overflow: auto;
+  color: white; }
+  body .game-container {
+    width: 100%;
+    height: 100vh; }
+    body .game-container .game-section {
+      width: 75%;
+      display: inline-block;
+      height: 375px;
+      margin-left: 20%;
+      margin-right: 20%; }
+      body .game-container .game-section .imgDiv {
+        font-size: 14px;
+        line-height: 1;
+        float: left;
+        height: 225px;
+        width: 225px; }
+        body .game-container .game-section .imgDiv .charImg {
+          height: 69%;
+          width: 69%; }
+    body .game-container .battle-container {
+      margin-top: 50px; }
+      body .game-container .battle-container .my-char-container {
+        float: left;
+        height: 375px; }
+      body .game-container .battle-container .defender-container {
+        margin-left: 10px;
+        float: left; }
+        body .game-container .battle-container .defender-container h2 {
+          color: red; }
