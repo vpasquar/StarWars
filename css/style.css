@@ -1,35 +1,37 @@
 body {
   background-image: url("../images/space.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
   background-size: 100%;
   overflow: auto;
   color: white; }
+  body #title-header {
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+    text-align: center;
+    /*#fight {
+            position:relative;
+            left:200px;
+            top:5px;
+            }*/ }
   body .game-container {
-    width: 100%;
-    height: 100vh; }
+    color: white; }
     body .game-container .game-section {
-      width: 75%;
-      display: inline-block;
-      height: 375px;
-      margin-left: 20%;
-      margin-right: 20%; }
+      border-style: solid;
+      border-width: 3px;
+      border-color: green;
+      width: 100%;
+      height: 500px;
+      display: inline-block; }
       body .game-container .game-section .imgDiv {
-        font-size: 14px;
-        line-height: 1;
-        float: left;
-        height: 225px;
-        width: 225px; }
-        body .game-container .game-section .imgDiv .charImg {
-          height: 69%;
-          width: 69%; }
-    body .game-container .battle-container {
-      margin-top: 50px; }
-      body .game-container .battle-container .my-char-container {
-        float: left;
-        height: 375px; }
-      body .game-container .battle-container .defender-container {
-        margin-left: 10px;
+        margin: 5px;
+        width: 300px;
+        height: 300px;
         float: left; }
-        body .game-container .battle-container .defender-container h2 {
-          color: red; }
+        body .game-container .game-section .imgDiv .charImg {
+          width: 60%;
+          height: 60%; }
+      body .game-container .game-section .defender-container {
+        position: relative;
+        bottom: 50px; }
